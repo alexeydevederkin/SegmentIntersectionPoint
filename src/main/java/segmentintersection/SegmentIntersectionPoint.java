@@ -66,7 +66,7 @@ public class SegmentIntersectionPoint {
 
             // checking if the point on the line segments
             if (between(a.x, b.x, x) && between(a.y, b.y, y) &&
-                    between(c.x, d.x, x) && between(c.y, d.y, y)) {
+                between(c.x, d.x, x) && between(c.y, d.y, y)) {
                 return new Point(x, y);
             } else {
                 // the point of intersection is not on both line segments
