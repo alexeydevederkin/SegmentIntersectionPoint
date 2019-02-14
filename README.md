@@ -2,7 +2,7 @@
 
 Algorithm for finding the intersection point of two line segments.
 
-Algorithm makes two lines from segments, finds point of intersection of these lines using Cramer's rule and then checks if this point is located not only on lines, but on the initial segments also. 
+Algorithm makes two lines from segments, finds the point of intersection of these lines using Cramer's rule and then checks if this point is located not only on lines, but on the initial segments also. 
 
 If the constructed lines don't have a point of intersection then they're parallel. In this case algorithm checks if initial segments are just touching each other — end of one segment = beginning of another (so they're have exactly one point of intersection).
 
